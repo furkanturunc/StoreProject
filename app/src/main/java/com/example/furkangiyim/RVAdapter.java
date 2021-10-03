@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -75,7 +76,6 @@ public class RVAdapter extends RecyclerView.Adapter<RVAdapter.CardViewNesneTutuc
                 public void onSuccess(FileDownloadTask.TaskSnapshot taskSnapshot) {
                     Bitmap bitmap = BitmapFactory.decodeFile(localfile.getAbsolutePath());
                     holder.imageButton.setImageBitmap(bitmap);
-
                 }
             }).addOnFailureListener(new OnFailureListener() {
                 @Override

@@ -8,7 +8,7 @@
         android:title="Anasayfa" />
     <item
         android:id="@+id/Ürünler"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/ic_baseline_checkroom_24"
         android:title="Ürünler" />
     <item
         android:id="@+id/Ayarlar"
