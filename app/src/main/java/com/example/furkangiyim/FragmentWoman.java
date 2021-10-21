@@ -37,10 +37,12 @@ public class FragmentWoman extends Fragment {
         kadınrv.setLayoutManager(new StaggeredGridLayoutManager(2,StaggeredGridLayoutManager.VERTICAL));
 
         kategoriler = new ArrayList<>();
-        kategoriler.add("Bluz & Kazak");
+        kategoriler.add("Mont");
         kategoriler.add("Sweatshirt");
-        kategoriler.add("İç Çamaşır");
-        kategoriler.add("Pantolon");
+        kategoriler.add("Jean");
+        kategoriler.add("Ceket");
+        kategoriler.add("Bluz");
+        kategoriler.add("Kazak");
 
 
         adapter = new RVAdapter(getContext(), kategoriler, "women");
